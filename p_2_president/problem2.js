@@ -1,7 +1,6 @@
 let fs = require('fs');
 
 let data = fs.readFileSync(__dirname + '/A-small-practice.in','utf8');
-data = data.split('\n').filter(a => a);
 let start = new Date();
 let k =0;
 while (k < 1000) {
